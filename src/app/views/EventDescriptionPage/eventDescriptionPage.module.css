@@ -1,12 +1,42 @@
 .descriptionContainer{
-    margin:80px 50px;
+    margin:40px 50px;
     text-align: center;
 }
 .descriptionHeading{
+    margin-bottom: 1rem;
     font-size: 18px;
     font-weight: 700;
 }
+.descriptionView{
+    display: flex;
+}
+.descriptionView > div{
+    width: 50%;
+}
+.description{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #fa07dd;
+}
 .descriptionImage{
-    max-width: 600px;
+    max-width: 90%;
     max-height: 500px;
+}
+.supriseInclusion{
+    text-align: left;
+}
+
+@media (max-width:1000px) {
+    .descriptionContainer{
+        margin:10px 20px;
+    }
+    .descriptionView > div{
+        width: 100%;
+    }
+    .descriptionView{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }

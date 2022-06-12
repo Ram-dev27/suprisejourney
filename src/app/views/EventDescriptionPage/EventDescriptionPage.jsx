@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { suprise } from '../../../strings';
-import styles from '../EventDescriptionPage/eventDescriptionPage.module.css'
+import React, { useEffect, useState } from "react";
+import { suprise } from "../../../strings";
+import styles from "../EventDescriptionPage/eventDescriptionPage.module.css";
 
 const EventDescriptionPage = () => {
   const params = new URLSearchParams(window.location.search);
@@ -17,12 +17,19 @@ const EventDescriptionPage = () => {
   return (
     <>
       {data?.map((data) => {
-        return <div key={data.EventId} className={styles.descriptionContainer}>
-          <div className={styles.descriptionHeading}>{data.EventName}</div>
-          <img src={data?.EventImage} alt="EventImage" className={styles.descriptionImage}></img>
-          <div className={styles.description}>{data.EventDescription}</div>
-          <div className={styles.descriptionPrice}>{data.packageAmount}</div>
-          </div>;
+        return (
+          <div key={data.EventId} className={styles.descriptionContainer}>
+            <div className={styles.descriptionHeading}>{data.EventName}</div>
+            <div className={styles.descriptionView}>
+              <div><img src={data?.EventImage} alt="EventImage"className={styles.descriptionImage}/></div>
+              <div>
+                <div className={styles.description} >{`"${data.EventDescription}"`}</div>
+                {data.supriseInclusion.map(data=><div className={styles.supriseInclusion}>{data}</div>)}
+                <div className={styles.descriptionPrice}><span>Price Amount ₹</span> {data.packageAmount} </div>
+              </div>
+            </div>
+          </div>
+        );
       })}
     </>
   );
