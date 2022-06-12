@@ -1,0 +1,12 @@
+.descriptionContainer{
+    margin:80px 50px;
+    text-align: center;
+}
+.descriptionHeading{
+    font-size: 18px;
+    font-weight: 700;
+}
+.descriptionImage{
+    max-width: 600px;
+    max-height: 500px;
+}
