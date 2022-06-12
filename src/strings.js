@@ -67,7 +67,7 @@ export const suprise = [
     EventName: "THEATRE SUPRISE",
     EventImage: theaterSuprise,
     EventDescription:
-      "A good theater is not what is expected but what surprises. We eventually go to theaters and be a part of the croud to watch movies but just imagine if the whole theater is just booked to surprise one person Make your imagination true with our theater surprise.",
+      "A good theater is not what is expected but what surprises. We eventually go to theaters and be a part of the crowd to watch movies but just imagine if the whole theater is just booked to surprise one person Make your imagination true with our theater surprise.",
     supriseInclusion: [
       "1) Ring stand [6×6ft]",
       "2) balloon decoration",
@@ -155,7 +155,7 @@ export const suprise = [
     supriseInclusion: [
       "1) Dancers [4 people]",
       "2) Song Mash-up [upto 4min]",
-      "3)  Messager board [3]",
+      "3)  Message board [3]",
       "4) Banners as per the event",
     ],
     packageAmount: "5,500",
@@ -167,7 +167,7 @@ export const suprise = [
 export const contact = {
   Name: "Ranjith Kumar",
   ForSurprise: "surprise journey",
-  ForWedding: "cupidscrew",
+  ForWedding: "cupid screw",
   Contact: "9941244376,",
   MailId: "surprisejourneyofficial@gmail.com",
   Address: "Sholinganallur Chennai 600119 Tamilnadu",

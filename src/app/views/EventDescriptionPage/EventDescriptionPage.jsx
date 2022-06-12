@@ -24,7 +24,7 @@ const EventDescriptionPage = () => {
               <div><img src={data?.EventImage} alt="EventImage"className={styles.descriptionImage}/></div>
               <div>
                 <div className={styles.description} >{`"${data.EventDescription}"`}</div>
-                {data.supriseInclusion.map(data=><div className={styles.supriseInclusion}>{data}</div>)}
+                {data.supriseInclusion.map((data,i)=><div key={i} className={styles.supriseInclusion}>{data}</div>)}
                 <div className={styles.descriptionPrice}><span>Price Amount ₹</span> {data.packageAmount} </div>
               </div>
             </div>

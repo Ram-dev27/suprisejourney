@@ -6,8 +6,8 @@ import styles from "../EventListPage/eventListPage.module.css";
 const EventListPage = () => {
   return (
     <div className={styles.EventListContainer}>
-      {suprise.map((data) => (
-        <EventListCard data={data}/>
+      {suprise.map((data,i) => (
+        <EventListCard key={i} data={data}/>
       ))}
     </div>
   );

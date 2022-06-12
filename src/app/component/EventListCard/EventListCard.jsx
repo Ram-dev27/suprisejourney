@@ -9,6 +9,7 @@ const EventListCard = ({ data }) => {
   };
   return (
     <div
+      key={data.key}
       className={styles.eventCardContainer}
       onClick={(e) => {
         e.stopPropagation();
