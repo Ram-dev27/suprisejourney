@@ -1,0 +1,47 @@
+.cardContainer {
+  width: 350px;
+  height: 500px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin: 10px;
+}
+.imageWrap{
+    height: 300px;
+}
+.imageWrap > img{
+    width: 100%;
+    height:100%;
+    border-radius: 10px 10px 0 0;
+}
+.heading{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e07c2e;
+    margin: 10px 0;
+    text-align: center;
+}
+.subText{
+    font-family: sans-serif;
+    font-size: 18px;
+    color:#333333;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    min-height: 50px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+.button > button{
+    padding: 10px;
+    background-color: #e07c2e;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-color: #e07c2e;
+}
+
+
