@@ -1,13 +1,13 @@
 import React from "react";
 import Footer from "../Footer/Footer";
 import HomPageCard from "../../component/HomePageCard/HomPageCard";
-import { homeCard } from "../../../strings";
+import { category } from "../../../strings";
 
 const Home = () => {
   return (
     <div>
       Home
-      {homeCard.map((data) => (
+      {category.map((data) => (
         <HomPageCard data={data} />
       ))}
       <Footer />

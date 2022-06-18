@@ -5,7 +5,7 @@ import styles from "../HomePageCard/homePageCard.module.css";
 const HomPageCard = ({ data }) => {
   const navigate = useNavigate();
   const handleCardOnclick = () => {
-    navigate(`/eventList`);
+    navigate(`/eventList?categoryId=${data.categoryId}`);
   };
   return (
     <div className={styles.cardContainer}>
