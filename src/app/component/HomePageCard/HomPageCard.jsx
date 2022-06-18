@@ -1,19 +1,21 @@
 import React from "react";
-import cabanaSetup from "../../assets/cabanaSetup.jpeg";
+import { useNavigate } from "react-router-dom";
 import styles from "../HomePageCard/homePageCard.module.css";
 
-const HomPageCard = () => {
+const HomPageCard = ({ data }) => {
+  const navigate = useNavigate();
+  const handleCardOnclick = () => {
+    navigate(`/eventList`);
+  };
   return (
     <div className={styles.cardContainer}>
       <div className={styles.imageWrap}>
-        <img src={cabanaSetup} alt="imageWrap" />
+        <img src={data.homeImage} alt="imageWrap" />
       </div>
-      <div className={styles.heading}>Marriage Arrangements</div>
-      <div className={styles.subText}>
-        "Marriages are made in heaven 💕Marriage decorations are made by us🎉."
-      </div>
+      <div className={styles.heading}>{data.homeHeading}</div>
+      <div className={styles.subText}>{data.homeSubText}</div>
       <div className={styles.button}>
-        <button>Get in touch</button>
+        <button onClick={handleCardOnclick}>Get in touch</button>
       </div>
     </div>
   );

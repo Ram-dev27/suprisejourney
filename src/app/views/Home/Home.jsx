@@ -1,14 +1,18 @@
-import React from 'react'
-import Footer from '../Footer/Footer'
-import HomPageCard from '../../component/HomePageCard/HomPageCard'
+import React from "react";
+import Footer from "../Footer/Footer";
+import HomPageCard from "../../component/HomePageCard/HomPageCard";
+import { homeCard } from "../../../strings";
 
 const Home = () => {
   return (
-    <div>Home
-      <HomPageCard/>
-      <Footer/>
+    <div>
+      Home
+      {homeCard.map((data) => (
+        <HomPageCard data={data} />
+      ))}
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

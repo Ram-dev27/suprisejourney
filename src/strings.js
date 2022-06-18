@@ -172,3 +172,21 @@ export const contact = {
   MailId: "surprisejourneyofficial@gmail.com",
   Address: "Sholinganallur Chennai 600119 Tamilnadu",
 };
+
+export const homeCard = [
+  {
+    homeImage:cabanaSetup,
+    homeHeading:'Suprise Journey',
+    homeSubText:'"Marriages are made in heaven 💕Marriage decorations are made by us🎉."',
+  },
+  {
+    homeImage:theaterSuprise,
+    homeHeading:'Marriage Arrangements',
+    homeSubText:'"Marriages are made in heaven 💕Marriage decorations are made by us🎉."',
+  },
+  {
+    homeImage:ringSetup,
+    homeHeading:'Photography / DJ',
+    homeSubText:'"Marriages are made in heaven 💕Marriage decorations are made by us🎉."',
+  }
+]
