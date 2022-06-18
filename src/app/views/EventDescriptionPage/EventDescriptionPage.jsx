@@ -34,14 +34,15 @@ const EventDescriptionPage = () => {
               <div>
                 <div
                   className={styles.description}
-                >{`"${data.EventDescription}"`}</div>
+                >{data.EventDescription}</div>
+                <p className={styles.inclusion}>🎉Suprise Inclusions</p>
                 {data.supriseInclusion.map((data, i) => (
                   <div key={i} className={styles.supriseInclusion}>
-                    {data}
+                    {`🎁${data}`}
                   </div>
                 ))}
                 <div className={styles.descriptionPrice}>
-                  <span>Price Amount ₹</span> {data.packageAmount}{" "}
+                  <span>Price Amount  ₹</span>{data.packageAmount}{" "}
                 </div>
               </div>
             </div>

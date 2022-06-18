@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@400;500&family=Public+Sans:wght@100&display=swap");
 .App {
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f2f3f7;

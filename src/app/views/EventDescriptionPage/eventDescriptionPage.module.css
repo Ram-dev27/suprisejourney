@@ -1,42 +1,68 @@
-.descriptionContainer{
-    margin:40px 50px;
-    text-align: center;
+.descriptionContainer {
+  margin: 40px 50px;
+  text-align: center;
 }
-.descriptionHeading{
-    margin-bottom: 1rem;
-    font-size: 18px;
-    font-weight: 700;
+.descriptionHeading {
+  margin-bottom: 1rem;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #e07c24;
+  font-family: sans-serif;
+  box-shadow: 0 0 5px 1px #f4ce6a;
+  border-radius: 5px;
 }
-.descriptionView{
-    display: flex;
+.descriptionPrice {
+  margin-top: 2rem;
+  padding: 10px 0;
+  font-style: italic;
+  box-shadow: 0 0 3px 1px #ff6666;
 }
-.descriptionView > div{
-    width: 50%;
+.descriptionView {
+  display: flex;
 }
-.description{
-    margin-top: 16px;
-    margin-bottom: 16px;
-    color: #fa07dd;
+.descriptionView > div {
+  width: 50%;
 }
-.descriptionImage{
-    max-width: 90%;
-    max-height: 500px;
+.description {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-style: italic;
+  font-weight: 600;
+  color: #edc126;
+  letter-spacing: 0.5px;
 }
-.supriseInclusion{
-    text-align: left;
+.descriptionImage {
+  max-width: 90%;
+  max-height: 500px;
+}
+.supriseInclusion {
+  text-align: left;
+}
+.inclusion {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff6666;
 }
 
-@media (max-width:1000px) {
-    .descriptionContainer{
-        margin:10px 20px;
-    }
-    .descriptionView > div{
-        width: 100%;
-    }
-    .descriptionView{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
+@media (max-width: 1000px) {
+  .descriptionContainer {
+    margin: 10px 20px;
+  }
+  .descriptionView > div {
+    width: 100%;
+  }
+  .descriptionView {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .descriptionImage {
+    max-width: 100%;
+    border-radius: 5px;
+  }
 }

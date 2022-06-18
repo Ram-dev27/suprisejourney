@@ -1,16 +1,23 @@
-.eventCardContainer{
-    text-align: center;
-    margin-top: 50px;
-    height: 350px;
-    width: 300px;
-    background-color: #f4e47f;
-    padding: 5px;
-    border-radius: 10px;
+.eventCardContainer {
+  text-align: center;
+  margin-top: 50px;
+  height: 350px;
+  width: 300px;
+  background-color: #f4e47f;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .eventCardContainer > img {
-    border-radius: 10px;
-    height: 90%;
-    width: 99%;
-    object-fit: cover;
+  border-radius: 10px;
+  height: 90%;
+  width: 99%;
+  object-fit: cover;
+}
+
+@media (max-width: 650px) {
+  .eventCardContainer {
+    width: 100%;
+    margin-top: 0px;
+  }
 }
