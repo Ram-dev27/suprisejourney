@@ -3,15 +3,19 @@ import cabanaSetupBeach from "../src/app/assets/cabanaSetupBeach.jpeg";
 import restaurantSuprise from "../src/app/assets/restaurantSuprise.jpeg";
 import ringSetup from "../src/app/assets/ringSetup.jpeg";
 import ringSetupDecoration from "../src/app/assets/ringSetupDecoration.jpeg";
+import suprise from "../src/app/assets/Icons/suprise.png";
 import theaterSuprise from "../src/app/assets/theaterSuprise.jpeg";
+import cupids from "../src/app/assets/cupids.jpeg";
+import dj from "../src/app/assets/dj.jpeg";
+import photo from "../src/app/assets/photo.jpeg";
 
 export const category = [
   {
     categoryId: 1,
-    homeImage: cabanaSetup,
+    homeImage: suprise,
     homeHeading: "Suprise Journey",
     homeSubText:
-      '"Marriages are made in heaven 💕Marriage decorations are made by us🎉."',
+      "Why should a restaurant always be a place only to sit,eat and pay. We'll make your meal a memorable dinner date with lots of party",
     events: [
       {
         EventId: 1,
@@ -173,10 +177,10 @@ export const category = [
   },
   {
     categoryId: 2,
-    homeImage: theaterSuprise,
+    homeImage: cupids,
     homeHeading: "Marriage Arrangements",
     homeSubText:
-      '"Marriages are made in heaven 💕Marriage decorations are made by us🎉."',
+      "Marriages are made in heaven 💕Marriage decorations are made by us🎉.",
     events: [
       {
         EventId: 1,
@@ -200,10 +204,10 @@ export const category = [
   },
   {
     categoryId: 3,
-    homeImage: ringSetup,
+    homeImage: photo,
     homeHeading: "Photography / DJ",
     homeSubText:
-      '"Marriages are made in heaven 💕Marriage decorations are made by us🎉."',
+      "Photography is an art of bringing live events in a sheet to cherish your memory lane. We have fully skilled photographer and videographer to capture you beautiful",
     events: [
       {
         EventId: 1,

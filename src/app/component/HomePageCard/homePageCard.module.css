@@ -5,52 +5,54 @@
   border-radius: 10px;
   margin: 10px 10px 20px 10px;
 }
-.imageWrap{
-    height: 300px;
+.imageWrap {
+  height: 271px;
 }
-.imageWrap > img{
-    width: 100%;
-    height:100%;
-    border-radius: 10px 10px 0 0;
+.imageWrap > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  background: #ff6666;
 }
-.heading{
-    font-family: sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #e07c2e;
-    margin: 10px 0;
-    text-align: center;
-    letter-spacing: 1px;
+.heading {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e07c2e;
+  margin: 1.5rem 0 10px 0;
+  text-align: center;
+  letter-spacing: 1px;
 }
-.subText{
-    font-family: sans-serif;
-    font-size: 14px;
-    color:#333333;
-    margin-bottom: 10px;
-    text-align: center;
-    padding: 10px;
-    min-height: 50px;
-    letter-spacing: 0.5px;
+.subText {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #F4BE2C;
+  line-height: 21px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+  min-height: 50px;
+  letter-spacing: 0.5px;
 }
-.button{
-    display: flex;
-    justify-content: center;
-    
+.button {
+  display: flex;
+  justify-content: center;
 }
-.button > button{
-    padding: 10px;
-    background-color: #e07c2e;
-    color: #fff;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    border-color: #e07c2e;
-    border-radius: 5px;
-}
-
-@media (max-width:650px){
-    .cardContainer{
-        width: 95%;
-    }
+.button > button {
+  padding: 10px;
+  background-color: #e07c2e;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  border-color: #e07c2e;
+  border-radius: 5px;
 }
 
+@media (max-width: 650px) {
+  .cardContainer {
+    width: 95%;
+  }
+}
