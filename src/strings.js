@@ -231,7 +231,7 @@ export const contact = {
   Name: "Ranjith Kumar",
   ForSurprise: "surprise journey",
   ForWedding: "cupid screw",
-  Contact: "9941244376,",
+  Contact: "9941244376",
   MailId: "surprisejourneyofficial@gmail.com",
-  Address: "Sholinganallur Chennai 600119 Tamilnadu",
+  Address: "Sholinganallur,Chennai,600119, Tamilnadu",
 };

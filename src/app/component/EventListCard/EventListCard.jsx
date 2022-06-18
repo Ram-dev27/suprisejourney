@@ -2,12 +2,14 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./eventListCard.module.css";
 
-const EventListCard = ({ data,categoryId }) => {
+const EventListCard = ({ data, categoryId }) => {
   const navigate = useNavigate();
   const handleCardOnclick = () => {
-    navigate(`/eventDescription?categoryId=${categoryId}&&eventId=${data?.EventId}`);
+    navigate(
+      `/eventDescription?categoryId=${categoryId}&&eventId=${data?.EventId}`
+    );
   };
-  console.log(data,"/..")
+  console.log(data, "/..");
   return (
     <div
       key={data?.key}
@@ -16,8 +18,14 @@ const EventListCard = ({ data,categoryId }) => {
         e.stopPropagation();
       }}
     >
-      <img src={data?.EventImage} alt="eventImage" onClick={handleCardOnclick} />
-      <div onClick={handleCardOnclick}>{data?.EventName}</div>
+      <img
+        src={data?.EventImage}
+        alt="eventImage"
+      />
+      <div>
+        <div className={styles.eventName} >{data?.EventName}</div>
+        <button className={styles.viewMore} onClick={handleCardOnclick} >View More</button>
+      </div>
     </div>
   );
 };
