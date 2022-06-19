@@ -1,7 +1,19 @@
-.EventListContainer{
-    display: flex;
-    flex-wrap: wrap;
-    gap:10px;
-    margin:20px;
-    justify-content: space-around;
+.EventListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px;
+  justify-content: space-around;
+}
+.eventListHeading {
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+  color: #f53529;
+}
+@media (min-width: 650px) {
+  .EventListContainer {
+    margin: 30 30px 30px 30px;
+  }
 }

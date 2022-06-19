@@ -42,7 +42,11 @@ const Footer = () => {
           </div>
           <div className={styles.info}>
             <MailIcon />
-            <span>{contact.MailId}</span>
+            <span>
+              <a href="mailto:surprisejourneyofficial@gmail.com.">
+                {contact.MailId}
+              </a>
+            </span>
           </div>
           <div className={styles.info}>
             <CallIcon />

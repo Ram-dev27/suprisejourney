@@ -212,7 +212,7 @@ export const category = [
       {
         EventId: 1,
         EventName: "RESTAURANT SUPRISE",
-        EventImage: restaurantSuprise,
+        EventImage: dj,
         EventDescription:
           "Maximum time spent (1hr) Why should a restaurant always be a place only to sit,eat and pay. We'll make your meal a memorable dinner date with lots of party, fun and food.",
         supriseInclusion: [

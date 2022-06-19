@@ -57,6 +57,8 @@
   font-size: 18px;
   font-weight: 600;
   color: #ff6666;
+  border-bottom: 2px solid #ff6666;
+  width: 26%;
 }
 
 @media (max-width: 1000px) {
@@ -101,5 +103,8 @@
   }
   .imageWrap {
     height: fit-content;
+  }
+  .inclusion {
+    width: 55%;
   }
 }
