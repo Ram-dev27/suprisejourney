@@ -1,0 +1,49 @@
+.homeMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeImage {
+  width: 95%;
+  height: 300px;
+  margin-top: -50px;
+}
+.homeMain > p {
+  text-align: center;
+}
+.homeMain > button {
+  padding: 10px;
+  background-color: #e07c2e;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  border-color: #e07c2e;
+  border-radius: 5px;
+  margin-top: -40px;
+}
+.homeHeading {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e07c2e;
+  margin: 1.5rem 0 20px 20px;
+  border-bottom: 3px solid #e07c2e;
+  width: 64%;
+}
+
+@media (min-width: 600px) {
+  .homeMain {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .cardContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .homeHeading {
+    margin: 1.5rem 0 20px 50px;
+    width: 16%;
+  }
+}

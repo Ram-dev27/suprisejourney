@@ -1,6 +1,5 @@
 .eventCardContainer {
   text-align: center;
-  margin-top: 50px;
   height: 450px;
   width: 300px;
   background-color: #f4e47f;
@@ -36,5 +35,10 @@
   .eventCardContainer {
     width: 100%;
     margin-top: 0px;
+    text-align: center;
+    height: 450px;
+    background-color: #f4e47f;
+    padding: 5px;
+    border-radius: 10px;
   }
 }

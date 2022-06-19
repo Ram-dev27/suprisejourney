@@ -15,14 +15,17 @@ const EventListPage = () => {
     setEventsData(singleEvent);
   }, []);
 
-  console.log(eventsData[0].events , "..")
+  console.log(eventsData[0].events, "..");
 
   return (
-    <div className={styles.EventListContainer}>
-      {eventsData[0]?.events?.map((data, i) => (
-        <EventListCard key={i} data={data} categoryId={categoryId}/>
-      ))}
-    </div>
+    <>
+      <div className={styles.eventListHeading}>{eventsData[0]?.homeHeading}</div>
+      <div className={styles.EventListContainer}>
+        {eventsData[0]?.events?.map((data, i) => (
+          <EventListCard key={i} data={data} categoryId={categoryId} />
+        ))}
+      </div>
+    </>
   );
 };
 

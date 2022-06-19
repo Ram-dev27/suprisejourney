@@ -35,14 +35,18 @@ const Footer = () => {
           />
         </div>
         <div className={styles.contactUs}>
-          <div className={styles.contactText}>Contact US</div>
+          <div className={styles.contactText}>Contact Us</div>
           <div className={styles.info}>
             <PersonPinIcon />
             <span>{contact.Name}</span>
           </div>
           <div className={styles.info}>
             <MailIcon />
-            <span>{contact.MailId}</span>
+            <span>
+              <a href="mailto:surprisejourneyofficial@gmail.com.">
+                {contact.MailId}
+              </a>
+            </span>
           </div>
           <div className={styles.info}>
             <CallIcon />
