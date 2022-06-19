@@ -7,7 +7,7 @@ const EventDescriptionPage = () => {
   const EventId = params.get("eventId");
   const categoryId = params.get("categoryId") - 1;
   const [data, setData] = useState(null);
-  console.log(category[categoryId].events,"singleEvent");
+  console.log(category[categoryId].events, "singleEvent");
   useEffect(() => {
     const singleEvent = category[categoryId]?.events.filter(
       (data) => data.EventId === Number(EventId)
@@ -22,27 +22,31 @@ const EventDescriptionPage = () => {
       {data?.map((data) => {
         return (
           <div key={data.EventId} className={styles.descriptionContainer}>
-            <div className={styles.descriptionHeading}>{data.EventName}</div>
             <div className={styles.descriptionView}>
-              <div>
+              <div className={styles.imageWrap}>
                 <img
                   src={data?.EventImage}
                   alt="EventImage"
                   className={styles.descriptionImage}
                 />
               </div>
+              <div className={styles.descriptionHeading}>{data.EventName}</div>
               <div>
                 <div
                   className={styles.description}
-                >{data.EventDescription}</div>
-                <p className={styles.inclusion}>🎉Suprise Inclusions</p>
-                {data.supriseInclusion.map((data, i) => (
-                  <div key={i} className={styles.supriseInclusion}>
-                    {`🎁${data}`}
-                  </div>
-                ))}
+                >{`❝ ${data.EventDescription} ❞`}</div>
+                <p className={styles.inclusion}>Suprise Inclusions🎉</p>
+                <div className={styles.inclusionMain}>
+                  {data.supriseInclusion.map((data, i) => (
+                    <div key={i} className={styles.supriseInclusion}>
+                      <span>{"🎁"}</span>
+                      <span>{data}</span>
+                    </div>
+                  ))}
+                </div>
                 <div className={styles.descriptionPrice}>
-                  <span>Price Amount  ₹</span>{data.packageAmount}{" "}
+                  <span>Price Amount ₹</span>
+                  {data.packageAmount}{" "}
                 </div>
               </div>
             </div>
