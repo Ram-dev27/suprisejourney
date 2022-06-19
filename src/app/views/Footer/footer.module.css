@@ -1,5 +1,5 @@
 .footerContainer {
-  background-color: #e5d68a;
+  background-color: #f8ecec;
   min-height: 200px;
 }
 .footerMain {
@@ -25,7 +25,7 @@
     align-items: center;
   }
   .info > svg {
-    color: yellow;
+    color: #242526;
   }
   .footerMain {
     flex-direction: column;
@@ -38,19 +38,23 @@
   .contactText {
     margin-bottom: 10px;
     font-size: 20px;
-    color: #2827CC
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
   }
   .contactUs {
     width: 90%;
-    box-shadow: 0 0 5px 4px #89b473;
+    box-shadow: 0 0 5px 4px #dfa0db66;
     padding: 10px;
-    background: #e2af4e70;
+    background: #f8ecec;
     margin-bottom: 1rem;
-    color: #2827CC;
+    color: #333;
   }
   .info > span {
     margin-left: 5px;
     font-size: 18px;
     font-weight: 500;
   }
+
 }

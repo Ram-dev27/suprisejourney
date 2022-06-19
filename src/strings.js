@@ -40,7 +40,7 @@ export const category = [
         EventName: "RING SET-UP DECORATION",
         EventImage: ringSetupDecoration,
         EventDescription:
-          "A ring like structure surrounded by balloon arch is a classic setup which can be made for all kinds of event. Looks great as a backdrop",
+          "A ring like structure surrounded by balloon arch is a classic setup which can be made for all kinds of event. Looks great as a backdrop.",
         supriseInclusion: [
           "Ring stand [6x6ft]",
           "Banner with any content of your choice",
@@ -115,7 +115,7 @@ export const category = [
         EventName: "RING SETUP",
         EventImage: ringSetup,
         EventDescription:
-          "A beautiful exterior setup made on the shores of the sea where you can enjoy the sunset with your loved once ( Private beach resort)",
+          "A beautiful exterior setup made on the shores of the sea where you can enjoy the sunset with your loved once ( Private beach resort).",
         supriseInclusion: [
           "RING SET-UP 6ft",
           "Candles light 30 To 40 ",
@@ -207,7 +207,7 @@ export const category = [
     homeImage: photo,
     homeHeading: "Photography / DJ",
     homeSubText:
-      "Photography is an art of bringing live events in a sheet to cherish your memory lane. We have fully skilled photographer and videographer to capture you beautiful",
+      "Photography is an art of bringing live events in a sheet to cherish your memory lane. We have fully skilled photographer and videographer to capture you beautiful.",
     events: [
       {
         EventId: 1,
@@ -232,10 +232,10 @@ export const category = [
 ];
 
 export const contact = {
-  Name: "Ranjith Kumar",
-  ForSurprise: "surprise journey",
-  ForWedding: "cupid screw",
-  Contact: "9941244376",
-  MailId: "surprisejourneyofficial@gmail.com",
-  Address: "Sholinganallur,Chennai,600119, Tamilnadu",
+  Name: "Ranjith Kumar.",
+  ForSurprise: "surprise journey.",
+  ForWedding: "cupid screw.",
+  Contact: "9941244376.",
+  MailId: "surprisejourneyofficial@gmail.com.",
+  Address: "Sholinganallur,Chennai,600119, Tamilnadu.",
 };
