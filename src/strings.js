@@ -6,8 +6,13 @@ import ringSetupDecoration from "../src/app/assets/ringSetupDecoration.jpeg";
 import suprise from "../src/app/assets/Icons/suprise.png";
 import theaterSuprise from "../src/app/assets/theaterSuprise.jpeg";
 import cupids from "../src/app/assets/cupids.jpeg";
-import dj from "../src/app/assets/dj.jpeg";
 import photo from "../src/app/assets/photo.jpeg";
+import marriage01 from "../src/app/assets/marriage01.jpeg";
+import marriage02 from "../src/app/assets/marriage02.jpeg";
+import chair01 from "../src/app/assets/chair01.jpeg";
+import chair02 from "../src/app/assets/chair02.jpeg";
+import chair03 from "../src/app/assets/chair03.jpeg";
+import chair04 from "../src/app/assets/chair04.jpeg";
 
 export const category = [
   {
@@ -20,7 +25,7 @@ export const category = [
       {
         EventId: 1,
         EventName: "RESTAURANT SUPRISE",
-        EventImage: [restaurantSuprise],
+        EventImage: [chair01, restaurantSuprise, chair02, chair03, chair04],
         EventDescription:
           "Maximum time spent (1hr) Why should a restaurant always be a place only to sit,eat and pay. We'll make your meal a memorable dinner date with lots of party, fun and food.",
         supriseInclusion: [
@@ -38,7 +43,7 @@ export const category = [
       {
         EventId: 2,
         EventName: "RING SET-UP DECORATION",
-        EventImage: [ringSetupDecoration],
+        EventImage: [chair02, chair03, chair04, ringSetupDecoration, chair01],
         EventDescription:
           "A ring like structure surrounded by balloon arch is a classic setup which can be made for all kinds of event. Looks great as a backdrop.",
         supriseInclusion: [
@@ -55,7 +60,7 @@ export const category = [
       {
         EventId: 3,
         EventName: "CABANA SET-UP",
-        EventImage: [cabanaSetupBeach],
+        EventImage: [cabanaSetupBeach, chair02, chair03, chair04, chair01],
         EventDescription:
           "A beautiful shelter kinda setup made on your terrace where you can have a romantic dinner date with your partner.",
         supriseInclusion: [
@@ -76,7 +81,7 @@ export const category = [
       {
         EventId: 4,
         EventName: "THEATRE SUPRISE",
-        EventImage: [theaterSuprise],
+        EventImage: [theaterSuprise, chair01],
         EventDescription:
           "A good theater is not what is expected but what surprises. We eventually go to theaters and be a part of the crowd to watch movies but just imagine if the whole theater is just booked to surprise one person Make your imagination true with our theater surprise.",
         supriseInclusion: [
@@ -92,7 +97,7 @@ export const category = [
       {
         EventId: 5,
         EventName: "CABANA SETUP",
-        EventImage: [cabanaSetup],
+        EventImage: [cabanaSetup, chair01, chair02, chair03, chair04],
         EventDescription:
           "A beautiful shelter kinda setup made on your terrace where you can have a romantic dinner date with your partner.",
         supriseInclusion: [
@@ -113,7 +118,7 @@ export const category = [
       {
         EventId: 6,
         EventName: "RING SETUP",
-        EventImage: [ringSetup],
+        EventImage: [ringSetup, chair01],
         EventDescription:
           "A beautiful exterior setup made on the shores of the sea where you can enjoy the sunset with your loved once ( Private beach resort).",
         supriseInclusion: [
@@ -131,7 +136,7 @@ export const category = [
       {
         EventId: 7,
         EventName: "ROOM DECORATION",
-        EventImage: [ringSetup],
+        EventImage: [ringSetup, chair01],
         EventDescription:
           "No time limits 🥳 Beautify your home with our unique setup and surprise your loved once.",
         supriseInclusion: [
@@ -160,7 +165,7 @@ export const category = [
       {
         EventId: 8,
         EventName: "FLASH MOB",
-        EventImage: [restaurantSuprise],
+        EventImage: [restaurantSuprise, chair01],
         EventDescription:
           "How would it be if a group of people suddenly appear in front of you and perform just to entertain you and disappear all of a sudden. Do you want to give such awe moment to your loved once then then hurry up and visit our site.",
         supriseInclusion: [
@@ -185,39 +190,12 @@ export const category = [
       {
         EventId: 1,
         EventName: "RESTAURANT SUPRISE",
-        EventImage: [restaurantSuprise],
-        EventDescription:
-          "Maximum time spent (1hr) Why should a restaurant always be a place only to sit,eat and pay. We'll make your meal a memorable dinner date with lots of party, fun and food.",
-        supriseInclusion: [
-          "Balloon ceiling",
-          "Photo hanging [20 photos]",
-          "foil balloon",
-          "Balloon Decoration",
-          "LED decoration in room",
-          "Balloons on the floor [50 to 70 pieces]",
-          "Bluetooth speaker [small]",
-        ],
-        packageAmount: "5000",
-        AddOn: ["Cake half kg 500", " Singer+ guitarist 2500"],
-      },
-    ],
-  },
-  {
-    categoryId: 3,
-    homeImage: photo,
-    homeHeading: "Photography / DJ",
-    homeSubText:
-      "Photography is an art of bringing live events in a sheet to cherish your memory lane. We have fully skilled photographer and videographer to capture you beautiful.",
-    events: [
-      {
-        EventId: 1,
-        EventName: "RESTAURANT SUPRISE",
         EventImage: [
-          dj,
-          photo,
-          ringSetupDecoration,
-          ringSetup,
+          marriage02,
+          chair04,
+          marriage01,
           restaurantSuprise,
+          chair01,
         ],
         EventDescription:
           "Maximum time spent (1hr) Why should a restaurant always be a place only to sit,eat and pay. We'll make your meal a memorable dinner date with lots of party, fun and food.",
@@ -233,8 +211,65 @@ export const category = [
         packageAmount: "5000",
         AddOn: ["Cake half kg 500", " Singer+ guitarist 2500"],
       },
+      {
+        EventId: 2,
+        EventName: "Photography / DJ",
+        EventImage: [
+          restaurantSuprise,
+          marriage01,
+          marriage02,
+          ringSetupDecoration,
+          photo,
+        ],
+        EventDescription:
+          "Photography is an art of bringing live events in a sheet to cherish your memory lane. We have fully skilled photographer and videographer to capture you beautiful.",
+        supriseInclusion: [
+          "Balloon ceiling",
+          "Photo hanging [20 photos]",
+          "foil balloon",
+          "Balloon Decoration",
+          "LED decoration in room",
+          "Balloons on the floor [50 to 70 pieces]",
+          "Bluetooth speaker [small]",
+        ],
+        packageAmount: "5000",
+        AddOn: ["Cake half kg 500", " Singer+ guitarist 2500"],
+      },
     ],
   },
+  // {
+  //   categoryId: 3,
+  //   homeImage: photo,
+  //   homeHeading: "Photography / DJ",
+  //   homeSubText:
+  //     "Photography is an art of bringing live events in a sheet to cherish your memory lane. We have fully skilled photographer and videographer to capture you beautiful.",
+  //   events: [
+  //     {
+  //       EventId: 1,
+  //       EventName: "RESTAURANT SUPRISE",
+  //       EventImage: [
+  //         dj,
+  //         photo,
+  //         ringSetupDecoration,
+  //         ringSetup,
+  //         restaurantSuprise,
+  //       ],
+  //       EventDescription:
+  //         "Maximum time spent (1hr) Why should a restaurant always be a place only to sit,eat and pay. We'll make your meal a memorable dinner date with lots of party, fun and food.",
+  //       supriseInclusion: [
+  //         "Balloon ceiling",
+  //         "Photo hanging [20 photos]",
+  //         "foil balloon",
+  //         "Balloon Decoration",
+  //         "LED decoration in room",
+  //         "Balloons on the floor [50 to 70 pieces]",
+  //         "Bluetooth speaker [small]",
+  //       ],
+  //       packageAmount: "5000",
+  //       AddOn: ["Cake half kg 500", " Singer+ guitarist 2500"],
+  //     },
+  //   ],
+  // },
 ];
 
 export const contact = {
