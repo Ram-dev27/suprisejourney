@@ -5,9 +5,9 @@
 .descriptionHeading {
   margin-bottom: 1rem;
   padding: 10px 0;
-  font-size: 18px;
-  font-weight: 700;
-  color: #e07c24;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--primary-text-color);
   font-family: sans-serif;
   border-radius: 5px;
 }
@@ -20,6 +20,8 @@
   padding: 10px 0;
   font-style: italic;
   border: 3px solid #ff6666;
+  color: black;
+  font-weight: 700;
 }
 .descriptionView {
   display: grid;
@@ -42,7 +44,8 @@
   margin-bottom: 16px;
   font-style: italic;
   font-weight: 600;
-  color: #edc126;
+  font-size: 14px;
+  color: var(--secondary-text-color);
   letter-spacing: 0.5px;
 }
 .descriptionImage {
@@ -52,11 +55,14 @@
 .supriseInclusion {
   text-align: left;
 }
+.supriseInclusion > span:nth-child(2) {
+  margin-left: 10px;
+}
 .inclusion {
   text-align: left;
   font-size: 18px;
   font-weight: 600;
-  color: #ff6666;
+  color: var(--primary-text-color);
   border-bottom: 2px solid #ff6666;
   width: 26%;
 }
@@ -92,8 +98,8 @@
     margin: 5px 0;
     font-size: 0.9rem;
   }
-  .supriseInclusion > span:nth-child(1) {
-    margin-right: 5px;
+  .supriseInclusion > span:nth-child(2) {
+    margin-left: 10px;
   }
   .descriptionHeading {
     margin-bottom: 0;
@@ -107,4 +113,10 @@
   .inclusion {
     width: 55%;
   }
+}
+@media screen and (max-width:400px) {
+  .inclusion{
+    width: 64%;
+  }
+  
 }

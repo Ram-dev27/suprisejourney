@@ -1,7 +1,7 @@
 .cardContainer {
   width: 350px;
   min-height: 500px;
-  background-color: antiquewhite;
+  background-color: #f8ecd4;
   border-radius: 10px;
   margin: 10px 10px 20px 10px;
 }
@@ -13,13 +13,13 @@
   height: 100%;
   border-radius: 10px 10px 0 0;
   object-fit: cover;
-  background: #ff6666;
+  background: #fcba43;
 }
 .heading {
   font-family: sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #e07c2e;
+  color:var(--primary-text-color);
   margin: 1.5rem 0 10px 0;
   text-align: center;
   letter-spacing: 1px;
@@ -28,7 +28,7 @@
   font-family: sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: #F4BE2C;
+  color:var(--secondary-text-color);
   line-height: 21px;
   margin-bottom: 10px;
   text-align: center;

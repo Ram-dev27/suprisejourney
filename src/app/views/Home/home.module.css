@@ -26,7 +26,7 @@
   font-family: sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #e07c2e;
+  color: var(--primary-text-color);
   margin: 1.5rem 0 20px 20px;
   border-bottom: 3px solid #e07c2e;
   width: 64%;

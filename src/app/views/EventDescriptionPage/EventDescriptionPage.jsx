@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { category } from "../../../strings";
+import CarouselCard from "../../component/Carousel/CarouselCard";
 import styles from "../EventDescriptionPage/eventDescriptionPage.module.css";
 
 const EventDescriptionPage = () => {
@@ -22,14 +23,9 @@ const EventDescriptionPage = () => {
       {data?.map((data) => {
         return (
           <div key={data.EventId} className={styles.descriptionContainer}>
+            <CarouselCard items={data?.EventImage} />
             <div className={styles.descriptionView}>
-              <div className={styles.imageWrap}>
-                <img
-                  src={data?.EventImage}
-                  alt="EventImage"
-                  className={styles.descriptionImage}
-                />
-              </div>
+              <div className={styles.imageWrap}></div>
               <div className={styles.descriptionHeading}>{data.EventName}</div>
               <div>
                 <div
@@ -39,7 +35,7 @@ const EventDescriptionPage = () => {
                 <div className={styles.inclusionMain}>
                   {data.supriseInclusion.map((data, i) => (
                     <div key={i} className={styles.supriseInclusion}>
-                      <span>{"🎁"}</span>
+                      <span>{"◉"}</span>
                       <span>{data}</span>
                     </div>
                   ))}

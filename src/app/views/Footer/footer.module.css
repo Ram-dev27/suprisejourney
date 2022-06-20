@@ -21,7 +21,7 @@
 }
 .info > span > a {
   text-decoration: none;
-  color: black;
+  color: var(--primary-text-color);
 }
 .info {
   margin-top: 10px;
@@ -47,7 +47,7 @@
 }
 .contactUs {
   width: 25%;
-  box-shadow: 0 0 5px 4px #dfa0db66;
+  box-shadow: 0 0 5px 4px #f0e0c1;
   padding: 10px;
   background: #f8ecec;
   margin: 1rem 0;
@@ -76,7 +76,6 @@
   }
   .contactUs {
     width: 90%;
-    box-shadow: 0 0 5px 4px #dfa0db66;
     padding: 10px;
     background: #f8ecec;
     margin-bottom: 1rem;
