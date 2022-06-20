@@ -39,7 +39,7 @@ const EventDescriptionPage = () => {
                 <div className={styles.inclusionMain}>
                   {data.supriseInclusion.map((data, i) => (
                     <div key={i} className={styles.supriseInclusion}>
-                      <span>{"🎁"}</span>
+                      <span>{"◉"}</span>
                       <span>{data}</span>
                     </div>
                   ))}

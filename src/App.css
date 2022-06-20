@@ -5,3 +5,7 @@
   padding: 0;
   background-color: #f2f3f7;
 }
+:root{
+  --primary-text-color:black;
+  --secondary-text-color:#333;
+}

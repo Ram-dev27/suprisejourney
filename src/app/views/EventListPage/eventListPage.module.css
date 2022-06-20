@@ -10,7 +10,7 @@
   font-weight: 600;
   text-align: center;
   padding-top: 10px;
-  color: #f53529;
+  color: var(--primary-text-color);
 }
 @media (min-width: 650px) {
   .EventListContainer {
