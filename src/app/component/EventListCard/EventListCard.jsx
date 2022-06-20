@@ -19,7 +19,7 @@ const EventListCard = ({ data, categoryId }) => {
       }}
     >
       <img
-        src={data?.EventImage}
+        src={data?.EventImage[0]}
         alt="eventImage"
       />
       <div>

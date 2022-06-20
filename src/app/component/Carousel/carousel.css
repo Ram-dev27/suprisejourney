@@ -1,0 +1,11 @@
+.carouselMain .rec-pagination {
+  margin-top: 5px;
+}
+.carouselMain .rec-dot {
+  height: 8px;
+  width: 8px;
+}
+
+.carouselMain{
+    margin: 0 -20px;
+}

@@ -20,7 +20,7 @@ export const category = [
       {
         EventId: 1,
         EventName: "RESTAURANT SUPRISE",
-        EventImage: restaurantSuprise,
+        EventImage: [restaurantSuprise],
         EventDescription:
           "Maximum time spent (1hr) Why should a restaurant always be a place only to sit,eat and pay. We'll make your meal a memorable dinner date with lots of party, fun and food.",
         supriseInclusion: [
@@ -38,7 +38,7 @@ export const category = [
       {
         EventId: 2,
         EventName: "RING SET-UP DECORATION",
-        EventImage: ringSetupDecoration,
+        EventImage: [ringSetupDecoration],
         EventDescription:
           "A ring like structure surrounded by balloon arch is a classic setup which can be made for all kinds of event. Looks great as a backdrop.",
         supriseInclusion: [
@@ -55,7 +55,7 @@ export const category = [
       {
         EventId: 3,
         EventName: "CABANA SET-UP",
-        EventImage: cabanaSetupBeach,
+        EventImage: [cabanaSetupBeach],
         EventDescription:
           "A beautiful shelter kinda setup made on your terrace where you can have a romantic dinner date with your partner.",
         supriseInclusion: [
@@ -76,7 +76,7 @@ export const category = [
       {
         EventId: 4,
         EventName: "THEATRE SUPRISE",
-        EventImage: theaterSuprise,
+        EventImage: [theaterSuprise],
         EventDescription:
           "A good theater is not what is expected but what surprises. We eventually go to theaters and be a part of the crowd to watch movies but just imagine if the whole theater is just booked to surprise one person Make your imagination true with our theater surprise.",
         supriseInclusion: [
@@ -92,7 +92,7 @@ export const category = [
       {
         EventId: 5,
         EventName: "CABANA SETUP",
-        EventImage: cabanaSetup,
+        EventImage: [cabanaSetup],
         EventDescription:
           "A beautiful shelter kinda setup made on your terrace where you can have a romantic dinner date with your partner.",
         supriseInclusion: [
@@ -113,7 +113,7 @@ export const category = [
       {
         EventId: 6,
         EventName: "RING SETUP",
-        EventImage: ringSetup,
+        EventImage: [ringSetup],
         EventDescription:
           "A beautiful exterior setup made on the shores of the sea where you can enjoy the sunset with your loved once ( Private beach resort).",
         supriseInclusion: [
@@ -131,7 +131,7 @@ export const category = [
       {
         EventId: 7,
         EventName: "ROOM DECORATION",
-        EventImage: ringSetup,
+        EventImage: [ringSetup],
         EventDescription:
           "No time limits 🥳 Beautify your home with our unique setup and surprise your loved once.",
         supriseInclusion: [
@@ -160,7 +160,7 @@ export const category = [
       {
         EventId: 8,
         EventName: "FLASH MOB",
-        EventImage: restaurantSuprise,
+        EventImage: [restaurantSuprise],
         EventDescription:
           "How would it be if a group of people suddenly appear in front of you and perform just to entertain you and disappear all of a sudden. Do you want to give such awe moment to your loved once then then hurry up and visit our site.",
         supriseInclusion: [
@@ -185,7 +185,7 @@ export const category = [
       {
         EventId: 1,
         EventName: "RESTAURANT SUPRISE",
-        EventImage: restaurantSuprise,
+        EventImage: [restaurantSuprise],
         EventDescription:
           "Maximum time spent (1hr) Why should a restaurant always be a place only to sit,eat and pay. We'll make your meal a memorable dinner date with lots of party, fun and food.",
         supriseInclusion: [
@@ -212,7 +212,13 @@ export const category = [
       {
         EventId: 1,
         EventName: "RESTAURANT SUPRISE",
-        EventImage: dj,
+        EventImage: [
+          dj,
+          photo,
+          ringSetupDecoration,
+          ringSetup,
+          restaurantSuprise,
+        ],
         EventDescription:
           "Maximum time spent (1hr) Why should a restaurant always be a place only to sit,eat and pay. We'll make your meal a memorable dinner date with lots of party, fun and food.",
         supriseInclusion: [
