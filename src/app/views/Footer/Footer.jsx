@@ -59,9 +59,27 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.socialMedia}>
-        <img src={youtubeIcon} alt="youtube"></img>
-        <img src={facebookIcon} alt="youtube"></img>
-        <img src={instagramIcon} alt="youtube"></img>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.youtube.com/channel/UCbGko3F8lrWuM49Gp4G-vzw/featured"
+        >
+          <img src={youtubeIcon} alt="youtube"></img>{" "}
+        </a>
+        <a
+          href="https://www.instagram.com/surprise_journey/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={facebookIcon} alt="youtube"></img>
+        </a>
+        <a
+          href="https://www.instagram.com/surprise_journey/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={instagramIcon} alt="youtube"></img>
+        </a>
       </div>
     </div>
   );
