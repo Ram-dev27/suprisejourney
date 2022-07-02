@@ -20,10 +20,12 @@ const Home = () => {
       <div className={styles.homeMain}>
         <img className={styles.homeImage} src={suprise} alt="homepageImage" />
         <button onClick={() => handleClick()}>Contact Us</button>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
-          in laudantium laborum molestias error soluta atque nesciunt similique,
-          dignissimos deleniti ut ullam nobis id officiis.
+        <p className={styles.subtext}>
+          Surprisingly surprising some one is the best surprise you can give to
+          that someone.This is the right place for you to make your imagination
+          come to life. The amount of happiness they express will be more than
+          or equal to the efforts you have taken. So why wait come surprise with
+          us !
         </p>
       </div>
       <h4 className={styles.homeHeading}>What we do for you !</h4>
