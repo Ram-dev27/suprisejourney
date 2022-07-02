@@ -15,7 +15,7 @@ const HomPageCard = ({ data }) => {
       <div className={styles.heading}>{data.homeHeading}</div>
       <div className={styles.subText}>{data.homeSubText}</div>
       <div className={styles.button}>
-        <button onClick={handleCardOnclick}>Get in touch</button>
+        <button onClick={handleCardOnclick}>Click here!</button>
       </div>
     </div>
   );
